@@ -1,0 +1,28 @@
+{
+  "name": "skimd",
+  "version": "1.0.0",
+  "description": "Chainable regex tests for bulk markdown proofing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratiqdev/skimd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratiqdev/skimd/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/pratiqdev/skimd#readme",
+  "bin": {
+    "skimd": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "json-loader": "^0.5.7"
+  }
+}
